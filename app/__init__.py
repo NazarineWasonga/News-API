@@ -25,3 +25,4 @@ def create_app(config_name):
     # Will add the views and forms
 
     return app
+    
