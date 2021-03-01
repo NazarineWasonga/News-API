@@ -1,4 +1,3 @@
-
 from flask import render_template,request,redirect,url_for
 from . import main
 from flask import render_template,request,redirect,url_for
@@ -13,6 +12,7 @@ def index():
     source= get_source()
     headlines = get_headlines()
     return render_template('index.html',sources=source, headlines = headlines)
+    # return "<h1>Hello</h1>"
 
 @main.route('/article/<id>')
 def article(id):
