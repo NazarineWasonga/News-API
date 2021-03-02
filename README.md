@@ -25,3 +25,10 @@ As a user I would like to:
 | Display the preview of an article | **On page load** | Each article displays an image,description and publication date |
 | To Read an entire article  | **Click an article** | Redirected to the news source's site to read the entire article |
 
+
+## SetUp / Installation Requirements
+### Prerequisites
+* python3.6
+* pip
+* virtualenv
+
