@@ -32,3 +32,8 @@ As a user I would like to:
 * pip
 * virtualenv
 
+### Cloning
+* In your terminal:
+
+$ git clone https://github.com/NazarineWasonga/News-API/
+$cd NewsAPI
