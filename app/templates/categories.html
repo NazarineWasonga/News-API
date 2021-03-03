@@ -1,17 +1,18 @@
-{% extends 'base.html'%} {% block content %}
-<br>
-<br>
+{% extends 'base.html'%}
 
-<body>
-    <br>
-    <br>
-    <h1 align="center" class="text-uppercase">{{cat}} NEWS </h3>
-        <div class="container">
-            <div class="card-columns">
+
+{% block content %}
+
+<h1 align="center" class="text-uppercase">{{cat}} NEWS
+    </h3>
+    <div class="container">
+        <div class="row row-cols-3">
+            <div class="raw">
                 {% for category in category %}
 
+
                 <div class="card">
-                    <img class="card" src="{{category.image}}" alt="Card image cap" size="100px180">
+                    <img class="card" src="{{category.image}}" alt="Card image cap" width="50%">
                     <div class="card-body">
                         <h5 class="card-title">{{category.author}}</h5>
                         <p class="card-text">{{category.description}}</p>
@@ -24,7 +25,10 @@
                     </div>
                 </div>
                 {% endfor %}
+
             </div>
         </div>
-        {% endblock %}
-</body>
+    </div>
+    {% endblock %}
+
+    </body>
