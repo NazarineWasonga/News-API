@@ -83,6 +83,8 @@ As a user I would like to:
  
  ## License
 
+![license](https://img.shields.io/github/license/mashape/apistatus.svg)
+
 Copyright (c) 2021 NazarineWasonga
 
 
