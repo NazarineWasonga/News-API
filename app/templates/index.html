@@ -22,12 +22,12 @@
         <div class="row col-sm-4">
             {% for headlines in headlines %}
             <div class="card">
-                <img src="{{headlines.image}}" width="50%" alt="Card image cap"">
+                <img src="{{headlines.image}}" width="400px" alt="Card image cap"">
                     <div class=" card-body">
                 <h5 class="card-title">{{headlines.author}}</h5>
                 <p class="card-text">{{headlines.description}}</p>
-                <a href="{{headlines.url}}">
-                    <p class="card-text">Click here for more details!</p>
+                <a href="{{headlines.url}}"
+                    class="btn btn-primary">Click here for more details!
                 </a>
             </div>
             <div class="card-footer">
